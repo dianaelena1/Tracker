@@ -1,0 +1,50 @@
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+
+<body class="nasa">
+
+   <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Proiect MSOA</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="index.php">Home</a></li>
+      <li><a href="insert.html">Insert</a></li>
+      <li class="active"><a href="iss.html"  >ISS Live</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+
+<table class="table table-striped">
+<tr>
+<th>Name</th>
+<th>Latitude</th>
+<th>Longitude</th>
+<th>Altitude</th>
+<th>Velocity</th>
+</tr>
+<tr class="fix">
+<td id="name"></td>
+<td id="latitude"></td>
+<td id="longitude"></td>
+<td id="altitude"></td>
+<td id="velocity"></td>
+</tr>
+</table>
+
+<script src="iss.js"></script>

@@ -1,0 +1,19 @@
+.heart{
+color: red;
+}
+
+.center{
+margin-left: 20px;
+}
+
+.nasa{
+   background-image: url("nasa.jpg");
+   background-color: #000000;
+   background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.fix{
+ background-color: #fff !important;
+}
